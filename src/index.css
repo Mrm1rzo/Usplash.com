@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-elements {
+    @apply max-w-5xl mx-auto px-5;
+  }
+
+  html,
+  body,
+  #root {
+    @apply h-full w-full;
+  }
+
+  #root {
+    @apply flex flex-col;
+  }
+  main {
+    @apply flex-grow;
+  }
+}
